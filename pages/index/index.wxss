@@ -1,0 +1,54 @@
+/* pages/index/index.wxss */
+.swiper-image, swiper {
+  width: 750rpx;
+  height: 180px;
+}
+
+.grids-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  
+  background-color: #fff;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+
+  width: 33.33333%;
+  height: 250rpx;
+  box-sizing: border-box;
+
+}
+
+.grid-item > image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.grid-item > text {
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20rpx;
+  margin: 20rpx 0;
+  background-color: #fff;
+}
+
+.links-wrapper image {
+  width: 340rpx;
+  height: 186rpx;
+}
