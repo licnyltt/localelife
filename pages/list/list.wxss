@@ -1,0 +1,51 @@
+/* pages/list/list.wxss */
+.list-item{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item image {
+  flex: 1;
+  height: 180rpx;
+}
+
+.list-desc {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding-left: 20rpx;
+  position: relative;
+}
+
+.list-desc text {
+  line-height: 46rpx;
+  font-size: 26rpx;
+  color: #678;
+}
+
+.list-desc .title {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.list-desc .score {
+  width: 60rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 24rpx;
+  background-color: #EE523D;
+}
+
+.hasmore {
+  font-size: 34rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #666;
+}

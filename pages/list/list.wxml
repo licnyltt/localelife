@@ -1,0 +1,14 @@
+<!--pages/list/list.wxml-->
+<view class='list-wrapper'>
+  <navigator wx:for="{{list}}" wx:key="id" url="/pages/detail/detail?id={{item.id}}" class='list-item' >
+    <image src="{{item.images[0]}}"></image>
+    <view class='list-desc'>
+      <text class="title">{{item.name}}</text>
+      <text>电话：{{item.phone}}</text>
+      <text>地址：{{item.address}}</text>
+      <text>营业时间：{{item.businessHours}}</text>
+      <text class='score'>{{item.score}}</text>
+    </view>
+  </navigator>
+</view>
+<view class='hasmore'>{{ hasMore ? '加载中...' : '亲，已经没有更多数据了，别拉了~'}}</view>

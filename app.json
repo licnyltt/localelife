@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/message/message",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/list/list",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

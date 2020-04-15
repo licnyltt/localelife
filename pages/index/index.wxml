@@ -16,10 +16,10 @@
 </view>
 <!-- 九宫格菜单 -->
 <view class='grids-wrapper'>
-  <view wx:for="{{menus}}" wx:key="id" class='grid-item'>
+  <navigator url="/pages/list/list?id={{item.id}}"  wx:for="{{menus}}" wx:key="id" class='grid-item'>
     <image src="{{item.icon}}"></image>
     <text>{{item.name}}</text>
-  </view>
+  </navigator >
 </view>
 <!-- 底部链接 -->
 <view class='links-wrapper'>
